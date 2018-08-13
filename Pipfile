@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+whitenoise = "==2.0.6"
+gunicorn = "==19.7.1"
+pipenv = "*"
+"psycopg2" = "*"
+request = "*"
+sendgrid = "==5.3.0"
+dj-database-url = "*"
+"psycopg2-binary" = "*"
+Pipfile = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

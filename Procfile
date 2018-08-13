@@ -1,0 +1,1 @@
+web: gunicorn tdcwebsite.wsgi --log-file -
